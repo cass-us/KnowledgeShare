@@ -53,7 +53,7 @@ const ExpertDashBoard = () => {
       <div
         className="absolute top-0 left-0 w-full h-full"
         style={{
-          backgroundImage: "url('https://images.pexels.com/photos/17792976/pexels-photo-17792976/free-photo-of-toyota-gt86-standing-with-taillights-lighted-on.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+          backgroundImage: "url('https://images.pexels.com/photos/7887848/pexels-photo-7887848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.5,
