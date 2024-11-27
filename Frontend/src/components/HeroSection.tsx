@@ -64,7 +64,7 @@ const HeroSection = () => {
                 </div>
                 <div className="ml-8 flex flex-col justify-center">
                     <h1 className="text-4xl font-bold mb-4 text-white">Welcome to InfoSphere</h1>
-                    <p className="text-lg text-gray-100 mb-6">
+                    <p className="text-lg text-white mb-6">
                         Stay updated with the latest blog posts, guides, and articles on various topics.
                     </p>
                     <button className="bg-orange-600 w-[200px] text-white py-2 px-6 rounded-xl hover:bg-yellow-400">
@@ -87,6 +87,7 @@ const HeroSection = () => {
             </div>
         </section>
     );
-};
+}; 
+
 
 export default HeroSection;
