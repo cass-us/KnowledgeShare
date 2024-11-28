@@ -71,32 +71,32 @@ const ExpertDashBoard = () => {
               onClick={() => setActiveComponent("create-product")}
               className="py-2 bg-gray-500 px-4 text-white hover:bg-gray-300 rounded-md text-left"
             >
-              Create Product
+               Manage Guides
             </button>
             <button 
               onClick={() => setActiveComponent("update-product")}
               className="py-2 bg-gray-500 mt-2 px-4 text-white hover:bg-gray-300 rounded-md text-left"
             >
-              Update Product
+               Analytics
             </button>
             <button 
               onClick={() => setActiveComponent("get-all-users")}
               className="py-2 bg-gray-500 mt-2 px-4 text-white  hover:bg-gray-300 rounded-md text-left"
             >
-              Get All Users
+              Profile Settings
             </button>
-            <button 
+            {/* <button 
               onClick={() => setActiveComponent("dealers")}
               className="py-2 bg-gray-500 mt-2 px-4 text-white  hover:bg-gray-300 rounded-md text-left"
             >
-              Dealers
-            </button>
-            <button 
+             
+            </button> */}
+            {/*<button 
               onClick={() => setActiveComponent("sales")}
               className="py-2 bg-gray-500 mt-2 px-4 text-white  hover:bg-gray-300 rounded-md text-left"
             >
               Sales
-            </button>
+            </button> */}
           </nav>
         </div>
         <button 
